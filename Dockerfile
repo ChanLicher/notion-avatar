@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # 暴露端口（如果需要的话）
-EXPOSE 3000
+EXPOSE 30000
 
 # 定义启动命令
 CMD ["npm", "start"]
