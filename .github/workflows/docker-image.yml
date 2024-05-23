@@ -26,7 +26,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          context: .
-          dockerfile: Dockerfile
           platforms: linux/amd64
           tags: chanlicher/notion_avatar:latest
